@@ -33,7 +33,7 @@ public class ArraysUtils {
         int array[] = new int[size];
         Random rnd = new Random();
         for (int i = 0; i < size; i++) {
-            array[i] = rnd.nextInt(maxValueExclusion) - 30;
+            array[i] = rnd.nextInt(maxValueExclusion);
         }
         return array;
     }

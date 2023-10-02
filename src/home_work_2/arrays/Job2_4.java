@@ -27,6 +27,9 @@ public class Job2_4 {
 
     public static void sumEvenPositiveNumbers() {
         int[] container = arrayRandom(50 , 100);
+        for (int j = 0; j < container.length; j++) {
+            container[j] = container[j] - 30;
+        }
         int sum = 0;
         for (int i = 0; i < container.length; i++) {
             if(container[i] > 0 && container[i] % 2 == 0) {

@@ -11,7 +11,9 @@ public class Job1_2 {
 
     public static void main(String[] args) {
 
-    multiplication("Agk");
+    // 1.2.1. multiplication(181232375);
+    // 1.2.2. multiplication(99.2);
+    // 1.2.3. multiplication("Привет");
 
     }
     public static String multiplication (String string) {

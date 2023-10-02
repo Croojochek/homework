@@ -13,6 +13,7 @@ public class ArraysIteration {
 
     public static void main(String[] args) {
         int[] container = arrayFromConsole();
+
         printAllElements(container); // 2.2.1.
         printEverySecondElements(container); // 2.2.2.
         printReversElements(container); // 2.2.3.

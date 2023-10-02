@@ -20,8 +20,6 @@ public class Job1_5 {
         // 1.5.5. step(); Ввод с клавиатуры
         // 1.5.6. turnOver();
 
-
-
     }
     public static int maxDigit(int num) {
         int max;
