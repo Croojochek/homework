@@ -1,6 +1,6 @@
-package HomeWork1;
+package home_work_1;
 
-public class Job2 {
+public class Task2 {
     public static void main(String[] args) {
 
         int b = 2;

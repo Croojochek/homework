@@ -1,8 +1,8 @@
-package HomeWork1;
+package home_work_1;
 
 import java.util.Scanner;
 
-public class Job1 {
+public class Task1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner (System.in);
 

@@ -1,7 +1,7 @@
 package home_work_2.loops;
 
 
-public class Job1_2 {
+public class Task1_2 {
 
     /** Все цифры из числа введенного через аргумент к исполняемой программе перемножить между собой и вывести ход вычислений в консоль.
      Пользователь обязан ввести целое число. Если ввели не целое то выдать сообщение о том что пользователь ввёл некорректные данные.
@@ -9,13 +9,9 @@ public class Job1_2 {
      1.2.2 Пример: Ввели 99.2, должно получиться в консоли: Введено не целое число
      1.2.3 Пример: Ввели Привет, должно получиться в консоли: Введено не число */
 
-    public static void main(String[] args) {
-
     // 1.2.1. multiplication(181232375);
     // 1.2.2. multiplication(99.2);
     // 1.2.3. multiplication("Привет");
-
-    }
     public static String multiplication (String string) {
         char c = string.charAt(1);
         if (string.matches("^[a-zA-Z]*$")) {

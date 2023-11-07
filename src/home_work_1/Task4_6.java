@@ -1,23 +1,24 @@
-package HomeWork1;
+package home_work_1;
 
 import java.util.Scanner;
 
-public class Job4_6 {
+public class Task4_6 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите год, чтобы узнать является ли он високосным: ");
         int year = scan.nextInt();
-
+    }
+    public static String leapYearChek(int year) {
         if (year % 4 > 0) {
-            System.out.println("Год невисокосный!");
+            return "Год невисокосный!";
         } else if (year % 4 == 0) {
             if (year % 100 > 0) {
-                System.out.println("Год високосный!");
+                return "Год високосный!";
             } else if (year % 400 == 0) {
-                System.out.println("Год високосный!");
+                return "Год високосный!";
             } else
-                System.out.println("Год невисокосный!");
+                return "Год невисокосный!";
         } else
-            System.out.println("Год невисокосный!");
+            return "Год невисокосный!";
     }
 }

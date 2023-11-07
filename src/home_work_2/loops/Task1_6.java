@@ -1,6 +1,6 @@
 package home_work_2.loops;
 
-public class Job1_6 {
+public class Task1_6 {
     /** Вывести таблицу умножения в консоль.
      * В консоли должно получиться также как и на картинке (динозаврика рисовать не надо) */
     public static void main(String[] args) {

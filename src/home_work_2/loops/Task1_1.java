@@ -1,17 +1,12 @@
 package home_work_2.loops;
 
 
-public class Job1_1 {
+public class Task1_1 {
 
     /** Перемножить числа от 1 до числа (включительно) введенного через аргумент к исполняемой программе.
      * Есть нюанс с переполнением, можно добавить проверки и сообщения пользователю.
      Пример: Ввели 5, должно получиться в консоли: 1 * 2 * 3 * 4 * 5 = ответ */
 
-    public static void main(String[] args) {
-
-        System.out.println(getFactorial(15));
-
-    }
         public static long getFactorial (int num) {
         long result = 1;
         for (int i = 1; i <= num; i++) {

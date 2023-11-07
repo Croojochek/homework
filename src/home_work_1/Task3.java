@@ -1,8 +1,8 @@
-package HomeWork1;
+package home_work_1;
 
 import java.util.Scanner;
 
-public class Job3 {
+public class Task3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите первое число: ");

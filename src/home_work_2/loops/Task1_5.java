@@ -3,7 +3,7 @@ package home_work_2.loops;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Job1_5 {
+public class Task1_5 {
     /** Задачи в презентации. На сайте есть пояснения по каждой из этих задач.
      * Все задачи в одном классе, в отдельных методах.
      1.5.1. Найти наибольшую цифру натурального числа
