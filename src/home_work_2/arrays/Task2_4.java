@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static home_work_2.utils.ArraysUtils.arrayRandom;
 
-public class Job2_4 {
+public class Task2_4 {
     /** Задачи в презентации. На сайте есть пояснения по каждой из этих задач.
      * Все задачи в одном классе, в отдельных методах.
      * Для получения массивов вызывать ранее созданный метод arrayRandom (ArraysUtils.arrayRandom(50, 100))
@@ -25,22 +25,17 @@ public class Job2_4 {
 
     }
 
-    public static void sumEvenPositiveNumbers() {
-        int[] container = arrayRandom(50 , 100);
-        for (int j = 0; j < container.length; j++) {
-            container[j] = container[j] - 30;
-        }
+    public static int sumEvenPositiveNumbers(int[] container) {
         int sum = 0;
         for (int i = 0; i < container.length; i++) {
             if(container[i] > 0 && container[i] % 2 == 0) {
                 sum = sum + container[i];
             }
         }
-        System.out.println(sum);
+        return sum;
     }
 
-    public static void maxEvenElement() {
-        int[] container = arrayRandom(50 , 100);
+    public static int maxEvenElement(int[] container) {
         int max = 0;
         int element = 0;
         for (int i = 0; i < container.length; i = i + 2) {
@@ -49,8 +44,7 @@ public class Job2_4 {
                 element = i;
             }
         }
-        System.out.println("Максимальный элемент массива: " + element);
-        System.out.println("Он равен: " + max);
+        return element;
     }
 
     public static void minAverageElements() {

@@ -2,6 +2,7 @@ package home_work_2;
 
 import home_work_2.loops.Task1_1;
 import home_work_2.loops.Task1_3;
+import home_work_2.loops.Task1_5;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -24,8 +25,18 @@ public class Task1Test {
         assertEquals(Task1_3.pow(4, -2), "Степень должна быть положительной!");
     }
     @Test
-    @DisplayName("Тест для Task1_3")
+    @DisplayName("Тест для Task1_5.1")
     public void test4() {
-        assertEquals(Task1_3.pow(4, -2), "Степень должна быть положительной!");
+        assertEquals(Task1_5.maxDigit(158), 8);
+    }
+    @Test
+    @DisplayName("Тест для Task1_5.1")
+    public void test5() {
+        assertEquals(Task1_5.maxDigit(-100), 0);
+    }
+    @Test
+    @DisplayName("Тест для Task1_5.6")
+    public void test6() {
+        assertEquals(Task1_5.turnOver(158), "851");
     }
 }
